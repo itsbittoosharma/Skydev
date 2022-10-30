@@ -9,7 +9,7 @@ const config = {
   title: 'Skydev',
   tagline: 'Development made easy!',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/Skydev/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
