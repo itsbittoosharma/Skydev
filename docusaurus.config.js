@@ -6,125 +6,120 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Skydev',
-  tagline: 'Development made easy!',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/Skydev/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+    title: 'Skydev',
+    tagline: 'Development made easy!',
+    url: 'https://your-docusaurus-test-site.com',
+    baseUrl: '/Skydev/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
+    favicon: 'img/favicon.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'itsbittoosharma', // Usually your GitHub org/user name.
-  projectName: 'skydev', // Usually your repo name.
+    // GitHub pages deployment config.
+    // If you aren't using GitHub pages, you don't need these.
+    organizationName: 'itsbittoosharma', // Usually your GitHub org/user name.
+    projectName: 'skydev', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+    // Even if you don't use internalization, you can use this field to set useful
+    // metadata like html lang. For example, if your site is Chinese, you may want
+    // to replace "en" with "zh-Hans".
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en'],
+    },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          
-        },
-        blog: {
-          showReadingTime: true,
-          
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+    presets: [
+        [
+            'classic',
+            /** @type {import('@docusaurus/preset-classic').Options} */
+            ({
+                docs: {
+                    sidebarPath: require.resolve('./sidebars.js'),
+
+                },
+                blog: {
+                    showReadingTime: true,
+
+                },
+                theme: {
+                    customCss: require.resolve('./src/css/custom.css'),
+                },
+            }),
+        ],
     ],
-  ],
 
-  themeConfig:
+    themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'Skydev',
-        logo: {
-          alt: 'Skeydev Logo',
-          src: 'img/logo.png',
-          srcDark: 'img/logo-dark.png'
+        ({
+        navbar: {
+            title: 'Skydev',
+            logo: {
+                alt: 'Skeydev Logo',
+                src: 'img/logo.png',
+                srcDark: 'img/logo-dark.png'
+            },
+            items: [{
+                    // type: 'doc',
+                    // docId: 'intro',
+                    to: '/docs/intro',
+                    position: 'left',
+                    label: 'Data Structures',
+                },
+                {
+                    to: '/blog',
+                    label: 'Blog',
+                    position: 'left'
+                },
+                {
+                    href: 'https://github.com/itsbittoosharma',
+                    label: 'GitHub',
+                    position: 'right',
+                },
+            ],
         },
-        items: [
-          {
-            // type: 'doc',
-            // docId: 'intro',
-            to: '/docs/intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/blog', 
-            label: 'Blog',
-            position: 'left' 
-          },
-          {
-            href: 'https://github.com/itsbittoosharma',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+        footer: {
+            style: 'dark',
+            links: [{
+                    title: 'Docs',
+                    items: [{
+                        label: 'DSA',
+                        to: '/docs/intro',
+                    }, ],
+                },
+                {
+                    title: 'Community',
+                    items: [{
+                            label: 'Stack Overflow',
+                            href: 'https://stackoverflow.com/',
+                        },
+                        {
+                            label: 'Discord',
+                            href: 'https://discordapp.com/',
+                        },
+                        {
+                            label: 'Twitter',
+                            href: 'https://twitter.com/itsbittoosharma',
+                        },
+                    ],
+                },
+                {
+                    title: 'More',
+                    items: [{
+                            label: 'Blog',
+                            to: '/blog',
+                        },
+                        {
+                            label: 'GitHub',
+                            href: 'https://github.com/itsbittoosharma',
+                        },
+                    ],
+                },
             ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/itsbittoosharma',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/itsbittoosharma',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Skydev, Inc.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+            copyright: `Copyright © ${new Date().getFullYear()} Skydev, Inc.`,
+        },
+        prism: {
+            theme: lightCodeTheme,
+            darkTheme: darkCodeTheme,
+        },
     }),
 };
 
