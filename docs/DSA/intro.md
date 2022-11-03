@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 
 # Complete Data structures and Algorithms Roadmap
 

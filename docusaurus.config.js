@@ -57,10 +57,18 @@ const config = {
                 src: 'img/logo.png',
                 srcDark: 'img/logo-dark.png'
             },
-            items: [{
-                    // type: 'doc',
-                    // docId: 'intro',
-                    to: '/docs/intro',
+             items: [
+                {
+                    type: 'doc',
+                    docId: 'Tutorial/intro',
+                    to: '/docs/Tutorial/intro',
+                    position: 'left',
+                    label: 'Tutorial',
+                },
+                {
+                    type: 'doc',
+                    docId: 'DSA/intro',
+                    to: '/docs/DSA/intro',
                     position: 'left',
                     label: 'Data Structures',
                 },
@@ -82,7 +90,7 @@ const config = {
                     title: 'Docs',
                     items: [{
                         label: 'DSA',
-                        to: '/docs/intro',
+                        to: '/docs/DSA/intro',
                     }, ],
                 },
                 {
