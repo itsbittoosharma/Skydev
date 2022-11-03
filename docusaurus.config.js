@@ -66,9 +66,9 @@ const config = {
                     label: 'Tutorial',
                 },
                 {
-                    type: 'doc',
-                    docId: 'DSA/intro',
-                    to: '/docs/DSA/intro',
+                    // type: 'doc',
+                    // docId: 'DSA/intro',
+                    to: '/docs/category/data-structures-and-algorithms',
                     position: 'left',
                     label: 'Data Structures',
                 },
