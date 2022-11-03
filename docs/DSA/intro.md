@@ -1,5 +1,8 @@
+---
+sidebar_position: 1
+---
 
-# Complete Data structures and Algorithms Roadmap
+# Roadmap - Complete Data structures and Algorithms 
 
 This tutorial covered all of the incredible data structures and algorithms that you will be required to study in order to land that next opportunity. Hopefully, this will help you become a better problem solver, developer, and ace your next technical coding interview.
 

@@ -57,10 +57,25 @@ const config = {
                 src: 'img/logo.png',
                 srcDark: 'img/logo-dark.png'
             },
-            items: [{
+             items: [
+                {
+                    type: 'doc',
+                    docId: 'Tutorial/intro',
+                    to: '/docs/Tutorial/intro',
+                    position: 'left',
+                    label: 'Tutorial',
+                },
+                {
                     // type: 'doc',
-                    // docId: 'intro',
-                    to: '/docs/intro',
+                    // docId: 'DSA/intro',
+                    to: '/docs/category/Web3-tutorial',
+                    position: 'left',
+                    label: 'Web3',
+                },
+                {
+                    // type: 'doc',
+                    // docId: 'DSA/intro',
+                    to: '/docs/category/data-structures-and-algorithms',
                     position: 'left',
                     label: 'Data Structures',
                 },
@@ -82,7 +97,7 @@ const config = {
                     title: 'Docs',
                     items: [{
                         label: 'DSA',
-                        to: '/docs/intro',
+                        to: '/docs/DSA/intro',
                     }, ],
                 },
                 {
