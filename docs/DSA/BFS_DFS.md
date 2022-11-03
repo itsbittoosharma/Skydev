@@ -1,5 +1,6 @@
-
-
+---
+sidebar_position: 9
+---
 
 ## Introduction
 These are techniques for finding something. It applies to arrays, graphs, trees, and so on. Many people mistake this for something related to graphs, but it is simply a technique for solving a generic search problem.
