@@ -68,6 +68,13 @@ const config = {
                 {
                     // type: 'doc',
                     // docId: 'DSA/intro',
+                    to: '/docs/category/Web3-tutorial',
+                    position: 'left',
+                    label: 'Web3',
+                },
+                {
+                    // type: 'doc',
+                    // docId: 'DSA/intro',
                     to: '/docs/category/data-structures-and-algorithms',
                     position: 'left',
                     label: 'Data Structures',
