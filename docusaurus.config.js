@@ -57,8 +57,7 @@ const config = {
                 src: 'img/logo.png',
                 srcDark: 'img/logo-dark.png'
             },
-             items: [
-                {
+            items: [{
                     type: 'doc',
                     docId: 'Tutorial/intro',
                     to: '/docs/Tutorial/intro',
@@ -75,7 +74,7 @@ const config = {
                 {
                     // type: 'doc',
                     // docId: 'DSA/intro',
-                    to: '/docs/category/data-structures-and-algorithms',
+                    to: '/docs/category/Data-Structures-and-Algorithms',
                     position: 'left',
                     label: 'Data Structures',
                 },
