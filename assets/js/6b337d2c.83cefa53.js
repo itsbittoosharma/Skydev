@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkskydev=self.webpackChunkskydev||[]).push([[2037],{7015:e=>{e.exports=JSON.parse('{"title":"Web3 Tutorial","description":"Sample description","slug":"/category/web3-tutorial","permalink":"/Skydev/docs/category/web3-tutorial","navigation":{"next":{"title":"What is Web3 ??","permalink":"/Skydev/docs/Web3/intro"}}}')}}]);
