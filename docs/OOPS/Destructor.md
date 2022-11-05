@@ -1,5 +1,2 @@
 ## What is a destructor?
-Contrary to constructors, which initialize objects and specify space for them,
-Destructors are also special methods. But destructors free up the resources and
-memory occupied by an object. Destructors are automatically called when an object
-is being destroyed.
+Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods. But destructors free up the resources and memory occupied by an object. Destructors are automatically called when an object is being destroyed.
