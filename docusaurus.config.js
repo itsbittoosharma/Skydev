@@ -96,7 +96,7 @@ const config = {
                     title: 'Docs',
                     items: [{
                         label: 'DSA',
-                        to: '/docs/DSA/intro',
+                        to: '/docs/DSA/Roadmap',
                     }, ],
                 },
                 {
