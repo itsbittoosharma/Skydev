@@ -79,6 +79,13 @@ const config = {
                     label: 'Data Structures',
                 },
                 {
+                    // type: 'doc',
+                    // docId: 'DSA/intro',
+                    to: '/docs/category/oops',
+                    position: 'left',
+                    label: 'OOPS',
+                },
+                {
                     to: '/blog',
                     label: 'Blog',
                     position: 'left'
