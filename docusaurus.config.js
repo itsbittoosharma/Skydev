@@ -9,7 +9,7 @@ const config = {
     title: 'Skydev',
     tagline: 'Development made easy!',
     url: 'https://your-docusaurus-test-site.com',
-    baseUrl: '/Skydev/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
@@ -84,6 +84,13 @@ const config = {
                     label: 'DevOps',
                 },
                 {
+                    // type: 'doc',
+                    // docId: 'DSA/intro',
+                    to: '/docs/category/Object-Oriented-Programming',
+                    position: 'left',
+                    label: 'OOPS',
+                },
+                {
                     to: '/blog',
                     label: 'Blog',
                     position: 'left'
@@ -101,7 +108,7 @@ const config = {
                     title: 'Docs',
                     items: [{
                         label: 'DSA',
-                        to: '/docs/DSA/intro',
+                        to: '/docs/DSA/Roadmap',
                     }, ],
                 },
                 {
