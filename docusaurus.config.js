@@ -79,6 +79,11 @@ const config = {
                     label: 'Data Structures',
                 },
                 {
+                    to: '/docs/category/DevOps-tutorial',
+                    position: 'left',
+                    label: 'DevOps',
+                },
+                {
                     to: '/blog',
                     label: 'Blog',
                     position: 'left'
