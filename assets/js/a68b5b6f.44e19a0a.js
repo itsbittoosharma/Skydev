@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkskydev=self.webpackChunkskydev||[]).push([[8436],{678:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/Skydev/blog/tags/docusaurus","allTagsPath":"/Skydev/blog/tags","count":4}')}}]);
