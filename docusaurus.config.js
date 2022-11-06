@@ -9,7 +9,7 @@ const config = {
     title: 'Skydev',
     tagline: 'Development made easy!',
     url: 'https://your-docusaurus-test-site.com',
-    baseUrl: '/Skydev/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
@@ -81,7 +81,7 @@ const config = {
                 {
                     // type: 'doc',
                     // docId: 'DSA/intro',
-                    to: '/docs/category/oops',
+                    to: '/docs/category/Object-Oriented-Programming',
                     position: 'left',
                     label: 'OOPS',
                 },
