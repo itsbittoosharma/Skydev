@@ -58,13 +58,6 @@ const config = {
                 srcDark: 'img/logo-dark.png'
             },
             items: [{
-                    type: 'doc',
-                    docId: 'Tutorial/intro',
-                    to: '/docs/Tutorial/intro',
-                    position: 'left',
-                    label: 'Tutorial',
-                },
-                {
                     // type: 'doc',
                     // docId: 'DSA/intro',
                     to: '/docs/category/Web3-tutorial',
@@ -89,11 +82,6 @@ const config = {
                     to: '/docs/category/Object-Oriented-Programming',
                     position: 'left',
                     label: 'OOPS',
-                },
-                {
-                    to: '/blog',
-                    label: 'Blog',
-                    position: 'left'
                 },
                 {
                     href: 'https://github.com/itsbittoosharma',
@@ -130,14 +118,9 @@ const config = {
                 {
                     title: 'More',
                     items: [{
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/itsbittoosharma',
-                        },
-                    ],
+                        label: 'GitHub',
+                        href: 'https://github.com/itsbittoosharma',
+                    }, ],
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Skydev, Inc.`,
